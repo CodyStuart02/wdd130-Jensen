@@ -1,8 +1,8 @@
- :root {
-            --green-dark: #0A4D68;
-            --green-light: #5DA9E9;
-            --beige: #F2E8CF;
-            --red-dark: #D96C2B;
+  :root {
+            --primary: #0A4D68;
+            --secondary: #F2E8CF;
+            --accent1: #D96C2B;
+            --accent2: #5DA9E9;
         }
 
         * {
@@ -14,12 +14,12 @@
         body {
             font-family: 'Times New Roman', Times, serif;
             line-height: 1.6;
-            background-color: var(--beige);
+            background-color: var(--secondary);
             color: #333;
         }
 
         header {
-            background-color: var(--green-dark);
+            background-color: var(--primary);
             color: white;
             padding: 20px;
         }
@@ -52,7 +52,7 @@
             margin: 0 10px;
             color: white;
             text-decoration: none;
-            background-color: var(--green-light);
+            background-color: var(--accent2);
             padding: 5px 10px;
             border-radius: 5px;
             display: inline-block;
@@ -60,7 +60,7 @@
 
         nav a:hover {
             background-color: white;
-            color: var(--green-dark);
+            color: var(--primary);
             border: 1px solid var(--green-dark);
         }
 
@@ -83,14 +83,14 @@
 
         section p {
             max-width: 600px;
-            background-color: var(--green-light);
+            background-color: var(--accent2);
             color: white;
             padding: 20px;
             border-radius: 10px;
         }
 
         section:nth-of-type(odd) {
-            background-color: var(--beige);
+            background-color: var(--secondary);
         }
 
         section:nth-of-type(even) {
@@ -104,7 +104,7 @@
         }
 
         footer {
-            background-color: var(--red-dark);
+            background-color: var(--accent1);
             color: white;
             text-align: center;
             padding: 20px;
