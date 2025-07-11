@@ -110,4 +110,64 @@
             padding: 20px;
             margin-top: 40px;
         }
+/* Styles for Baptisms Page */
+        .baptisms-page {
+          text-align: center;
+          background-color: #0A4D68;
+          color: #F2E8CF;
+          padding: 50px 0;
+        }
+        
+        .baptisms-page .gallery {
+          width: 90%;
+          max-width: 1400px;
+          margin: 0 auto;
+          padding: 50px 20px;
+          background-color: #F2E8CF;
+          border-radius: 16px;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+          color: #0A4D68;
+        }
+        
+        .baptisms-page .gallery img {
+          width: 80%;
+          max-width: 5000px;
+          margin-bottom: 20px;
+          border-radius: 12px;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+          border: 5px solid #D96C2B;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .baptisms-page .gallery img:hover {
+          transform: scale(1.02);
+          box-shadow: 0 0 20px #5DA9E9;
+        }
+        
+        .baptisms-page .row {
+          display: flex;
+          justify-content: center;
+          gap: 40px;
+          margin-bottom: 20px;
+          flex-wrap: wrap;
+        }
+        
+        .baptisms-page .row img {
+          width: 100%;
+          max-width: 45%;
+        }
+        
+        .baptisms-page .portrait-section {
+          margin-bottom: 200px;
+        }
+        
+        .baptisms-page nav a {
+          color: #F2E8CF;
+          font-weight: bold;
+        }
+        
+        .baptisms-page nav a:hover {
+          text-decoration: underline;
+        }
+
 
