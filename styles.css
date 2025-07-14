@@ -170,4 +170,21 @@
           text-decoration: underline;
         }
 
+/* Styles for Companions Page */
 
+        .companions-page section {
+          padding-bottom: 150px;
+          padding-top: 100px;
+        }
+
+        .text-fix1 p {
+          margin-top: 50px;
+          text-align: center;
+        }
+
+        .text-fix2 figure p {
+          margin-top: 90px;
+        }
+        .text-fix2 figure img {
+          margin-top: 35px;
+        }
